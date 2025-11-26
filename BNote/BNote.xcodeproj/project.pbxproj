@@ -6,8 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D8BA2E1E2ED6AF9700AF8018 /* BNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA2E1D2ED6AF9700AF8018 /* BNoteApp.swift */; };
+		D8BA2E202ED6AF9700AF8018 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA2E1F2ED6AF9700AF8018 /* ContentView.swift */; };
+		D8BA2E372ED6BA7600AF8018 /* RootSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA2E362ED6BA7000AF8018 /* RootSplitView.swift */; };
+		D8BA2E392ED6BA7F00AF8018 /* CanvasPaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA2E382ED6BA7B00AF8018 /* CanvasPaneView.swift */; };
+		D8BA2E3B2ED6BA8F00AF8018 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA2E3A2ED6BA8700AF8018 /* ToolbarView.swift */; };
+		D8BA2E3D2ED6BAED00AF8018 /* LanguageSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA2E3C2ED6BA9300AF8018 /* LanguageSelectorView.swift */; };
+		D8BA2E3F2ED6BAFC00AF8018 /* NotebookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA2E3E2ED6BAF000AF8018 /* NotebookListView.swift */; };
+		D8BA2E412ED6BBD300AF8018 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA2E402ED6BBC600AF8018 /* SettingsView.swift */; };
+		D8BA2E4B2ED6C35500AF8018 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA2E4A2ED6BD0500AF8018 /* AppEnvironment.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D8BA2E1A2ED6AF9700AF8018 /* BNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BA2E1D2ED6AF9700AF8018 /* BNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNoteApp.swift; sourceTree = "<group>"; };
+		D8BA2E1F2ED6AF9700AF8018 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8BA2E312ED6B9DC00AF8018 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		D8BA2E322ED6B9E300AF8018 /* Notebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notebook.swift; sourceTree = "<group>"; };
+		D8BA2E332ED6B9EA00AF8018 /* Stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
+		D8BA2E342ED6B9F500AF8018 /* TranslationLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationLanguage.swift; sourceTree = "<group>"; };
+		D8BA2E352ED6BA0B00AF8018 /* TranslationPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationPair.swift; sourceTree = "<group>"; };
+		D8BA2E362ED6BA7000AF8018 /* RootSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootSplitView.swift; sourceTree = "<group>"; };
+		D8BA2E382ED6BA7B00AF8018 /* CanvasPaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasPaneView.swift; sourceTree = "<group>"; };
+		D8BA2E3A2ED6BA8700AF8018 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		D8BA2E3C2ED6BA9300AF8018 /* LanguageSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectorView.swift; sourceTree = "<group>"; };
+		D8BA2E3E2ED6BAF000AF8018 /* NotebookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookListView.swift; sourceTree = "<group>"; };
+		D8BA2E402ED6BBC600AF8018 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D8BA2E422ED6BC1200AF8018 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		D8BA2E432ED6BC2400AF8018 /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
+		D8BA2E442ED6BC4300AF8018 /* TranslationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationViewModel.swift; sourceTree = "<group>"; };
+		D8BA2E452ED6BC5100AF8018 /* NotebookListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookListViewModel.swift; sourceTree = "<group>"; };
+		D8BA2E462ED6BC7B00AF8018 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		D8BA2E472ED6BCCE00AF8018 /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
+		D8BA2E482ED6BCDA00AF8018 /* NoteStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteStorageService.swift; sourceTree = "<group>"; };
+		D8BA2E492ED6BCF500AF8018 /* DrawingSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingSyncService.swift; sourceTree = "<group>"; };
+		D8BA2E4A2ED6BD0500AF8018 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +66,12 @@
 		D8BA2E112ED6AF9700AF8018 = {
 			isa = PBXGroup;
 			children = (
+				D8BA2E302ED6B96C00AF8018 /* Resources */,
+				D8BA2E2F2ED6B94E00AF8018 /* Services */,
+				D8BA2E2E2ED6B94300AF8018 /* ViewModels */,
+				D8BA2E2D2ED6B93900AF8018 /* Views */,
+				D8BA2E2C2ED6B90B00AF8018 /* Models */,
+				D8BA2E2B2ED6B8FF00AF8018 /* App */,
 				D8BA2E1C2ED6AF9700AF8018 /* BNote */,
 				D8BA2E1B2ED6AF9700AF8018 /* Products */,
 			);
@@ -43,6 +83,70 @@
 				D8BA2E1A2ED6AF9700AF8018 /* BNote.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D8BA2E2B2ED6B8FF00AF8018 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D8BA2E1D2ED6AF9700AF8018 /* BNoteApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D8BA2E2C2ED6B90B00AF8018 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8BA2E352ED6BA0B00AF8018 /* TranslationPair.swift */,
+				D8BA2E342ED6B9F500AF8018 /* TranslationLanguage.swift */,
+				D8BA2E332ED6B9EA00AF8018 /* Stroke.swift */,
+				D8BA2E322ED6B9E300AF8018 /* Notebook.swift */,
+				D8BA2E312ED6B9DC00AF8018 /* Note.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D8BA2E2D2ED6B93900AF8018 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8BA2E402ED6BBC600AF8018 /* SettingsView.swift */,
+				D8BA2E3E2ED6BAF000AF8018 /* NotebookListView.swift */,
+				D8BA2E3C2ED6BA9300AF8018 /* LanguageSelectorView.swift */,
+				D8BA2E3A2ED6BA8700AF8018 /* ToolbarView.swift */,
+				D8BA2E382ED6BA7B00AF8018 /* CanvasPaneView.swift */,
+				D8BA2E362ED6BA7000AF8018 /* RootSplitView.swift */,
+				D8BA2E1F2ED6AF9700AF8018 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8BA2E2E2ED6B94300AF8018 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D8BA2E462ED6BC7B00AF8018 /* SettingsViewModel.swift */,
+				D8BA2E452ED6BC5100AF8018 /* NotebookListViewModel.swift */,
+				D8BA2E442ED6BC4300AF8018 /* TranslationViewModel.swift */,
+				D8BA2E432ED6BC2400AF8018 /* CanvasViewModel.swift */,
+				D8BA2E422ED6BC1200AF8018 /* NoteViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D8BA2E2F2ED6B94E00AF8018 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D8BA2E4A2ED6BD0500AF8018 /* AppEnvironment.swift */,
+				D8BA2E492ED6BCF500AF8018 /* DrawingSyncService.swift */,
+				D8BA2E482ED6BCDA00AF8018 /* NoteStorageService.swift */,
+				D8BA2E472ED6BCCE00AF8018 /* TranslationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D8BA2E302ED6B96C00AF8018 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +223,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8BA2E202ED6AF9700AF8018 /* ContentView.swift in Sources */,
+				D8BA2E412ED6BBD300AF8018 /* SettingsView.swift in Sources */,
+				D8BA2E3B2ED6BA8F00AF8018 /* ToolbarView.swift in Sources */,
+				D8BA2E372ED6BA7600AF8018 /* RootSplitView.swift in Sources */,
+				D8BA2E3D2ED6BAED00AF8018 /* LanguageSelectorView.swift in Sources */,
+				D8BA2E392ED6BA7F00AF8018 /* CanvasPaneView.swift in Sources */,
+				D8BA2E3F2ED6BAFC00AF8018 /* NotebookListView.swift in Sources */,
+				D8BA2E1E2ED6AF9700AF8018 /* BNoteApp.swift in Sources */,
+				D8BA2E4B2ED6C35500AF8018 /* AppEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
